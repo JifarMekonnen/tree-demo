@@ -1,0 +1,14 @@
+﻿ The following three questions are all about a tree class you need to implement. You can implement the tree class in either Java or C#.
+ 
+Question 1: Implement the class as follows.
+  The tree class maintains a generalized tree with nodes containing string data.The tree class will expose the following operations:
+    • createNode: takes a parent node and a string data and creates a new node with the string data. Returns the reference to the newly created node in the tree. 
+    • createRootNode: takes a string data and creates a root node with the string data. Returns reference to the root node. If root node is already created, the method updates the data of the root node. 
+    • getChilds: take a reference to node and returns list of immediate childs of the node 
+    • isNodeParentOf: takes reference to two nodes A and B and return true if B is the descendant of A (direct or indirect) 
+    • getRootNode: returns reference to the root node 
+ 
+Question 2: Write a static method for the tree class that searches a tree for a given search string and returns reference to the first node whose string data exactly matches the search string
+ 
+Question 3: Create a generic tree class which can work on any data type rather than just strings
+
